@@ -7,3 +7,15 @@ Journal de développement
 - Création de l'arborescence
 - Installation de smarty
 - Helloworld
+
+
+
+#### TODO 
+- Ajout composer
+- Ajout de twig
+- Création backoffice template
+- Ajout BDD
+- Installation
+- Création front
+- Gestion utilisateurs
+- Gestion groupes
