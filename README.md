@@ -6,21 +6,21 @@
 1. Informations
 2. Bibliothèques
 
+1. Informations
+-
 
-## 1. Informations
+Author : Alexandre Moreau
 
+Website : alexandre-moreau.fr
 
-* Author : Alexandre Moreau
+Version : 0.0.1
 
-* Website : alexandre-moreau.fr
+Etat : dev
 
-* Version : 0.0.1
+Description : CMS simple et efficace
 
-* Etat : dev
-
-* Description : CMS simple et efficace
-
-## 2. Bibliothèques
+2. Bibliothèques
+-
 
 ### Twig #
 
