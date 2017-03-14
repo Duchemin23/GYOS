@@ -9,7 +9,6 @@
 /*** Ajout des bibliothèques ***/
 
 // Namespace
-
 include_once('vendor/autoload.php');
 
 $loader = new Twig_Loader_Filesystem('content/theme/gyos_default'); // Dossier contenant les templates
