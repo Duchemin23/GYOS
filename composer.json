@@ -1,12 +1,5 @@
 {
-  "name": "vendor_name/package_name",
-  "description": "Projet CMS",
-  "minimum-stability": "dev",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Alexandre Moreau",
-      "email": "contact@alexandre-moreau.fr"
+    "require": {
+        "twig/twig": "^2.0"
     }
-  ]
 }
