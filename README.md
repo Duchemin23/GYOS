@@ -22,7 +22,7 @@ Description : CMS simple et efficace
 2. Bibliothèques
 -
 
-### Smarty #
+### Twig #
 
-Version : 3.1.30
+Template engine
 

@@ -9,18 +9,16 @@
 /*** Ajout des bibliothèques ***/
 
 // Namespace
-require("lib/smarty/smarty.class.php"); // On inclut la classe Smarty
+include_once('vendor/autoload.php');
 
-
+$loader = new Twig_Loader_Filesystem('content/theme/gyos_default'); // Dossier contenant les templates
+$twig = new Twig_Environment($loader, array('cache' => false));
 
 /*** Chargement des extensions ***/
 
-$tpl = new Smarty();
-
-$tpl->assign('title','Page principale');
 
 
 /*** Chargement du template ***/
+echo $twig->render('main.html', array('title' => 'Projet GYOS'));
 
-$tpl->display("content/theme/gyos_default/main.html");
 ?>
