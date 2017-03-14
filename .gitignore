@@ -1,2 +1,6 @@
 # Ignorer tous les fichiers dans vendor
 vendor
+# Supprimer le cache
+templates_c
+# Ignorer composer.phar
+*.phar
