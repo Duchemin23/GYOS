@@ -1,2 +1,4 @@
 # Ignorer tous les fichiers dans vendor
 vendor
+templates_c
+*.phar
