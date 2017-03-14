@@ -6,6 +6,9 @@
  * Time: 13:15
  */
 
+/*** Vérifie l'installation ***/
+// header:location
+
 /*** Ajout des bibliothèques ***/
 
 // Namespace
