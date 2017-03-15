@@ -22,6 +22,7 @@ $twig = new Twig_Environment($loader, array('cache' => false));
 
 
 /*** Chargement du template ***/
-echo $twig->render('main.html', array('title' => 'Projet GYOS'));
-
-?>
+echo $twig->render('main.html', array(
+        'title' => 'Projet GYOS',
+        'bienvenue' => 'Bienvenue sur ce super CMS'
+));

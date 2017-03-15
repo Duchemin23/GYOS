@@ -1,25 +1,21 @@
 :house: Projet GYOS
 ==
 
-### Sommaire #
 
-1. Informations
-2. Bibliothèques
-
-1. Informations
+Informations
 -
 
 Author : Alexandre Moreau
 
 Website : alexandre-moreau.fr
 
-Version : 0.0.1
+Version : 0.0.2
 
 Etat : dev
 
-Description : CMS simple et efficace
+Description : CMS to learn php
 
-2. Bibliothèques
+Library
 -
 
 ### Twig #
