@@ -8,14 +8,20 @@ Journal de développement
 - Installation de smarty
 - Helloworld
 
-
-
-#### TODO 
+### 14/03/2017 #
 - Ajout composer
 - Ajout de twig
+
+### In progress
+
 - Création backoffice template
+
+#### TODO 
+
+
 - Ajout BDD
 - Installation
 - Création front
 - Gestion utilisateurs
 - Gestion groupes
+- Ext base
