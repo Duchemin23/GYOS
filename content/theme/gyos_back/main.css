@@ -33,15 +33,35 @@ div#page nav {
     width:200px;
     min-height:100vh;
 }
-div#page nav h2 {
-    color:#000;
-}
-li a {
-    width:100%;
+div#page ul h2 {
     color:#FFF;
-    float:left;
+    text-transform:uppercase;
+    padding:5px;
+    border-bottom:1px solid #333;
+    margin:5px;
+}
+div#page ul {
+    margin:0;
+    padding:0;
+}
+div#page li {
+    margin:0;
+    padding:0;
+}
+div#page li a {
+    width:180px;
+    display:inline-block;
+    color:#FFF;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-top:2px;
+    background-color:#333;
+}
+div#page li a:hover {
+    background-color:#900;
 }
 div#page div#content {
+
     float:left;
     min-height:100vh;
 }
