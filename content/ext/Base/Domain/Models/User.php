@@ -7,6 +7,7 @@
  */
 
 class User {
+    private $login;
     private $name;
     private $firstName;
     private $password;
@@ -14,6 +15,22 @@ class User {
 
     function __contruct() {
 
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLogin()
+    {
+        return $this->login;
+    }
+
+    /**
+     * @param mixed $login
+     */
+    public function setLogin($login)
+    {
+        $this->login = $login;
     }
 
     /**
@@ -37,15 +54,15 @@ class User {
      */
     public function getFirstName()
     {
-        return $this->firstname;
+        return $this->firstName;
     }
 
     /**
      * @param mixed $firstname
      */
-    public function setFirstName($firstname)
+    public function setFirstName($firstName)
     {
-        $this->firstname = $firstname;
+        $this->firstName = $firstName;
     }
 
     /**
