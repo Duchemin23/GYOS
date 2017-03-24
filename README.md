@@ -18,7 +18,7 @@ Description : CMS to learn php
 Library
 -
 
-### Twig #
+### Smarty #
 
 Template engine
 

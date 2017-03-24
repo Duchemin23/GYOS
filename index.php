@@ -14,15 +14,20 @@
 // Namespace
 include_once('vendor/autoload.php');
 
-$loader = new Twig_Loader_Filesystem('content/theme/gyos_default'); // Dossier contenant les templates
-$twig = new Twig_Environment($loader, array('cache' => false));
+$tpl = new Smarty();
+
+$tpl->assign("title","Projet");
+$tpl->assign("bienvenue","Bienvenue sue ce super site");
+/*$tpl->assign(array(
+    "une_variable" => "Je suis une variable",
+    "une_autre_variable" => "Je suis une belle variable"
+    // ...
+));*/
+
+$tpl->display("content/theme/gyos_default/main.html");
 
 /*** Chargement des extensions ***/
 
 
 
 /*** Chargement du template ***/
-echo $twig->render('main.html', array(
-        'title' => 'Projet GYOS',
-        'bienvenue' => 'Bienvenue sur ce super CMS'
-));

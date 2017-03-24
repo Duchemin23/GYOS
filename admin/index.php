@@ -15,13 +15,15 @@
 include_once('../vendor/autoload.php');
 
 $loader = new Twig_Loader_Filesystem('../content/theme/gyos_back'); // Dossier contenant les templates
-$twig = new Twig_Environment($loader, array('cache' => false));
+$tpl = new Smarty();
+
+$tpl->assign("title","Projet GYOS");
+$tpl->assign("bienvenue","Bienvenue sue ce super site");
+
+$tpl->display("../content/theme/gyos_back/main.html");
 
 /*** Chargement des extensions ***/
 
 
 
 /*** Chargement du template ***/
-echo $twig->render('main.html', array(
-    'title' => 'Projet GYOS'
-));
