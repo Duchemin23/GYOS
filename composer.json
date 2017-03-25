@@ -1,5 +1,4 @@
-{
-    "require": {
-        "smarty/smarty": "3.1.x-dev"
+{    "require": {
+        "smarty/smarty": "v3.1.31"
     }
 }

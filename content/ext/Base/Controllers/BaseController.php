@@ -8,4 +8,6 @@
 
 class BaseController {
 
+    public function menuDisplayAction() {
+    }
 }

@@ -13,17 +13,21 @@
 
 // Namespace
 include_once('../vendor/autoload.php');
-
-$loader = new Twig_Loader_Filesystem('../content/theme/gyos_back'); // Dossier contenant les templates
 $tpl = new Smarty();
+
+
+/*** Vérification connexion ***/
+// Todo : connexion
 
 $tpl->assign("title","Projet GYOS");
 $tpl->assign("bienvenue","Bienvenue sue ce super site");
 
-$tpl->display("../content/theme/gyos_back/main.html");
+
 
 /*** Chargement des extensions ***/
 
-
+// Todo : menu avec liens
 
 /*** Chargement du template ***/
+
+$tpl->display("../content/theme/gyos_back/main.html");
