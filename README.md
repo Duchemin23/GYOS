@@ -15,7 +15,7 @@ Etat : dev
 
 Description : CMS to learn php
 
-Library
+Libraries
 -
 
 ### Smarty #
