@@ -1,4 +1,4 @@
-:house: Projet GYOS
+:house: Mods de factorio
 ==
 
 
@@ -9,16 +9,16 @@ Author : Alexandre Moreau
 
 Website : alexandre-moreau.fr
 
-Version : 0.0.2
+Version : 0.1.0
 
 Etat : dev
 
-Description : CMS to learn php
+Description : Mods for factorio
 
 Libraries
 -
 
-### Smarty #
-
-Template engine
++ Harvest
++ Seeding
++ Craft
 
