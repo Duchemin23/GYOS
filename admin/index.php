@@ -30,4 +30,4 @@ $tpl->assign("bienvenue","Bienvenue sue ce super site");
 
 /*** Chargement du template ***/
 
-$tpl->display("../content/theme/gyos_back/main.html");
+$tpl->display("../content/themes/gyos_back/main.html");

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-03-24 20:57:19
+/* Smarty version 3.1.31, created on 2017-05-06 12:27:26
   from "C:\wamp64\www\gyos\content\theme\gyos_back\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_58d5882f1dd552_07679954',
+  'unifunc' => 'content_590dc12e9ea8c8_79957572',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eaa4da4e11d1f3789d9f32c35071b583eeb1c162' => 
     array (
       0 => 'C:\\wamp64\\www\\gyos\\content\\theme\\gyos_back\\main.html',
-      1 => 1490389009,
+      1 => 1494073619,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_58d5882f1dd552_07679954 (Smarty_Internal_Template $_smarty_tpl) {
+function content_590dc12e9ea8c8_79957572 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -50,8 +50,14 @@ function content_58d5882f1dd552_07679954 (Smarty_Internal_Template $_smarty_tpl)
             </ul>
             <ul>
                 <h2>Extensions</h2>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Gestion utilisateurs</a></li>
+                <li><a href="#">Gestion</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#">Gestion groupe</a></li>
+            </ul>
+            <ul>
+                <h2>Thèmes</h2>
+                <li><a href="#">Gestion</a></li>
+                <li><a href="#"></a></li>
                 <li><a href="#">Gestion groupe</a></li>
             </ul>
         </nav>

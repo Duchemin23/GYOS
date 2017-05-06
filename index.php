@@ -24,7 +24,7 @@ $tpl->assign("bienvenue","Bienvenue sue ce super site");
     // ...
 ));*/
 
-$tpl->display("content/theme/gyos_default/main.html");
+$tpl->display("content/themes/gyos_default/main.html");
 
 /*** Chargement des extensions ***/
 
