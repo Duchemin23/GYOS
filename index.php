@@ -16,7 +16,7 @@ include_once('vendor/autoload.php');
 
 $tpl = new Smarty();
 
-$tpl->assign("title","Projet");
+$tpl->assign("gyos_title","Projet");
 $tpl->assign("bienvenue","Bienvenue sue ce super site");
 /*$tpl->assign(array(
     "une_variable" => "Je suis une variable",

@@ -1,4 +1,4 @@
-:house: Mods de factorio
+:house: Projet GYOS
 ==
 
 
@@ -13,12 +13,10 @@ Version : 0.1.1
 
 Etat : dev
 
-Description : Mods for factorio
+Description : CMS pour apprendre php7
 
 Libraries
 -
 
-+ Harvest
-+ Seeding
-+ Craft
++ Smarty
 
