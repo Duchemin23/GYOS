@@ -6,6 +6,7 @@
  * Time: 13:15
  */
 
+require __DIR__ . '/vendor/autoload.php';
 /*** Vérifie l'installation ***/
 // header:location
 
