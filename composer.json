@@ -1,0 +1,15 @@
+{
+  "name": "alexandremoreau/gyos",
+  "description": "Framework php",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandre Moreau",
+      "email": "dev@ealexandre-moreau.fr"
+    }
+  ],
+  "require": {
+    "smarty/smarty": "v3.1.31"
+  }
+}
