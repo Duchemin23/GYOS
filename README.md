@@ -13,12 +13,11 @@ Version : 0.1.0
 
 Etat : dev
 
-Description : Mods for factorio
+Description : Framework php + CMS
 
 Libraries
 -
 
-+ Harvest
-+ Seeding
-+ Craft
++ Smarty
+
 

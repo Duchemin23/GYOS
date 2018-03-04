@@ -1,7 +1,0 @@
-# Ignorer tous les fichiers dans vendor
-vendor
-.idea/
-install/
-/composer.phar
-/templates_c/
-/admin/templates_c/
