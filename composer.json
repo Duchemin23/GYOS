@@ -9,6 +9,13 @@
       "email": "dev@ealexandre-moreau.fr"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Components\\": "components/",
+      "Controllers\\": "controllers/",
+      "Models\\": "models/"
+    }
+  },
   "require": {
     "smarty/smarty": "v3.1.31"
   }
